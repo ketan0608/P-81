@@ -19,8 +19,8 @@ const BottomTabNavigator=()=>{
       }
     })}
     tabBarOptions={{
-      activeTintColor:'grey',
-      inactiveTintColor:'white'
+      activeTintColor:'red',
+      inactiveTintColor:'grey'
     }}
     >
     <Tab.Screen name='CreatePost' component={CreatePost}/>
